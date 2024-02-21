@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Merriweather';
+}
+.wrapper{
+    width: 100vw;
+    height: 200vh;
+    background-color: black;
+}
+.spacer{
+    width: 100vw;
+    height: 3vh;
+}
+#header{
+    width: 70vw;
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+}
+.logo{
+    height: 15vh;
+}
+ul{
+    width: 55vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 20px;
+}
+#about-2col{
+    width: 70vw;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+}
+.about-col1{
+    width: 30vw;
+    margin: 0 auto;
+    color: white;
+}
+.about-col1 h1, h2, h5{
+    margin: 40px;
+}
+.about-col2{
+    width: 40vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.about-img{
+    height: 70vh;
+}
+#story{
+    width: 70vw;
+    height: 50vh;
+    margin: 0 auto 3vh;
+    display: block;
+}
+.title{
+    height: 5vh;
+    width: 70vw;
+    color: white;
+    margin-bottom: 3vh;
+}
+.title h3{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.story-3col{
+    display: flex;
+    height: 42vh;
+}
+.story-col1{
+    width: 20vw;
+}
+.story1, .story3{
+    height: 42vh;
+}
+.story-col2{
+    width: 30vw;
+    color: white;
+    padding: 20px 40px 30px 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.story-col3{
+    width: 20vw;
+}
+#characters{
+    width: 70vw;
+    height: 40vh;
+    margin: 0 auto;
+}
+.characters-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.character{
+    height: 10vh;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5vh;
+}
+#recommendations{
+    width: 70vw;
+    height: 30vh;
+    margin: 0 auto 10vh;
+}
+.rec-3col{
+    height: 22vh;
+    display: flex;
+    justify-content: space-between;
+}
+.rec{
+    width: 20vw;
+    background-color:blue;
+}
